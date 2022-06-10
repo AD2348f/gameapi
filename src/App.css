@@ -8,6 +8,23 @@ body {
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 64em) {
+  body {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 50em) {
+  body {
+    font-size: 75%;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  body {
+    font-size: 50%;
+  }
+}
 
 .menu {
   width: 100%;
@@ -45,7 +62,11 @@ body {
   justify-content: center;
 }
 
-
+.gameList li {
+  list-style: none;
+  margin-top: 5px;
+  text-align: left;
+}
 
 .gameCard {
   border: 1px black solid;
