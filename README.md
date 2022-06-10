@@ -4,8 +4,8 @@ Goal of this project was to fetch the Api from https://www.freetogame.com/api-do
 
 
 # Dependencies needed to run this project localy:
-npm i axios
-npm i dotenv
+- npm i axios
+- npm i dotenv
 
 # Important infos to run project localy
 1.create free access key at https://rapidapi.com/digiwalls/api/free-to-play-games-database/
