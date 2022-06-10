@@ -8,6 +8,6 @@ Goal of this project was to fetch the Api from https://www.freetogame.com/api-do
 - npm i dotenv
 
 # Important infos to run project localy
--In order to be able to connect the API:
--create free access key at https://rapidapi.com/digiwalls/api/free-to-play-games-database/
--either create .env file and store pw there or replace in GetApi.js process.env.REACT_APP_API_KEY in options1 & options2 with your key
+- In order to be able to connect the API:
+- create free access key at https://rapidapi.com/digiwalls/api/free-to-play-games-database/
+- either create .env file and store pw there or replace in GetApi.js process.env.REACT_APP_API_KEY in options1 & options2 with your key
