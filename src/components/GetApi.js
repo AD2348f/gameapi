@@ -1,6 +1,7 @@
+import { useEffect } from "react";
 import axios from "axios";
 
-function GetApi() {
+function GetApi({setGames}) {
 
     const options = {
         method: 'GET',
@@ -11,11 +12,16 @@ function GetApi() {
         }
       };
       
-      axios.request(options).then(function (response) {
-          console.log(response.data);
+      useEffect(() => {
+      axios
+      .request(options)
+      .then(function (response) {
+        setGames(response.data);
+        console.log(response.data);
       }).catch(function (error) {
           console.error(error);
       });
+    }, []);
 
     
 }
