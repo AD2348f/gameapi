@@ -7,7 +7,7 @@ function GetApi({setGames}) {
         method: 'GET',
         url: 'https://free-to-play-games-database.p.rapidapi.com/api/games',
         headers: {
-          'X-RapidAPI-Key': '2ceeeecc92msh161de9f8603056bp1caefdjsncae71524b2da',
+          'X-RapidAPI-Key': process.env.REACT_APP_ACCESS_TOKEN,
           'X-RapidAPI-Host': 'free-to-play-games-database.p.rapidapi.com'
         }
       };
